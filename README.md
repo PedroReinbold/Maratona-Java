@@ -1,20 +1,43 @@
-Maratona Java - DevDojo
-Repositório dedicado ao armazenamento de todo o código desenvolvido durante o curso Maratona Java Virado no Jiraya, ministrado pelo DevDojo. Este projeto serve como meu laboratório de fundamentos e práticas avançadas em Java.
+# ☕ Maratona Java - DevDojo
 
- Estrutura de Diretórios
-O core do aprendizado está organizado seguindo a estrutura de pacotes do curso:
+Este repositório é o meu **laboratório prático** de desenvolvimento Java, contendo todos os exercícios e aulas do curso **Maratona Java Virado no Jiraya**. Como estudante de **Engenharia de Software**, utilizo este espaço para consolidar fundamentos de **Backend** e aplicar arquiteturas limpas.
 
-Caminho Principal: src/academy/devdojo/maratonajava/javacore/
+---
 
-Conteúdo: Cada subdiretório dentro de javacore representa um módulo específico (Introdução, Orientação a Objetos, Exceções, Coleções, Multithreading, etc.).
+## 📂 Estrutura do Projeto
 
- Tecnologias e Conceitos Aplicados
-Para manter o nível de exigência de Engenharia de Software, cada exercício foca em:
+O código está organizado seguindo a padronização de pacotes do curso, facilitando a localização de módulos específicos:
 
-Fundamentos Sólidos: Tipos primitivos, estruturas de controle e arrays.
+* **Diretório Raiz:** `src/academy/devdojo/maratonajava`
+* **Core do Aprendizado:** `/javacore/`
+* **Organização:** Os pacotes são divididos por letras (ex: `Aintroducao`, `Bintroducaometodos`), garantindo uma **cronologia lógica** do aprendizado.
 
-POO Avançada: Aplicação real de Coesão, Acoplamento, Herança e Polimorfismo.
+---
 
-Clean Code: Nomenclatura semântica e métodos pequenos.
+## 🛠️ Pilares de Desenvolvimento
 
-Java Features: Lambdas, Streams, Optional e novas APIs de Data/Hora.
+Em cada commit e exercício, busco aplicar os seguintes conceitos para garantir a **qualidade de software**:
+
+* **Orientação a Objetos (POO):** Foco em **Abstração**, **Encapsulamento**, **Herança** e **Polimorfismo**.
+* **Interfaces:** Definição de **contratos robustos** para o sistema.
+* **Clean Code:** Uso de **Nomenclatura Semântica** e métodos com **responsabilidade única**.
+* **SOLID:** Práticas para reduzir o **acoplamento** e aumentar a **coesão**.
+* **Java Moderno:** Implementação de **Lambdas**, **Streams API** e novas APIs de **Data/Hora**.
+
+---
+
+## 🦆 Metodologia de Estudo (Rubber Duck)
+
+Como parte do meu processo de aprendizado focado em **prática 100%**:
+
+* **Entendimento Profundo:** O foco não é apenas a solução, mas entender o **porquê** de cada implementação.
+* **Refatoração Constante:** Códigos de aulas iniciais são revisitados para aplicação de **novos padrões** de módulos avançados.
+* **Foco em Backend:** Contextualização dos conceitos abstratos com a realidade de sistemas **escaláveis**.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+* **Linguagem:** Java (Versões LTS)
+* **IDE:** IntelliJ IDEA
+* **Versionamento:** Git & GitHub
