@@ -1,10 +1,10 @@
-# ☕ Maratona Java - DevDojo
+#  Maratona Java - DevDojo
 
 Este repositório é o meu **laboratório prático** de desenvolvimento Java, contendo todos os exercícios e aulas do curso **Maratona Java Virado no Jiraya**. Como estudante de **Engenharia de Software**, utilizo este espaço para consolidar fundamentos de **Backend** e aplicar arquiteturas limpas.
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 O código está organizado seguindo a padronização de pacotes do curso, facilitando a localização de módulos específicos:
 
@@ -14,7 +14,7 @@ O código está organizado seguindo a padronização de pacotes do curso, facili
 
 ---
 
-## 🛠️ Pilares de Desenvolvimento
+##  Pilares de Desenvolvimento
 
 Em cada commit e exercício, busco aplicar os seguintes conceitos para garantir a **qualidade de software**:
 
@@ -26,7 +26,7 @@ Em cada commit e exercício, busco aplicar os seguintes conceitos para garantir 
 
 ---
 
-## 🦆 Metodologia de Estudo (Rubber Duck)
+##  Metodologia de Estudo (Rubber Duck)
 
 Como parte do meu processo de aprendizado focado em **prática 100%**:
 
@@ -36,7 +36,7 @@ Como parte do meu processo de aprendizado focado em **prática 100%**:
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **Linguagem:** Java (Versões LTS)
 * **IDE:** IntelliJ IDEA
