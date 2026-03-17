@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introducao;
+package academy.devdojo.maratonajava.RubberDuckIA;
 
 public class ExIA05Multidimensionais {
     static void main(String[] args) {
