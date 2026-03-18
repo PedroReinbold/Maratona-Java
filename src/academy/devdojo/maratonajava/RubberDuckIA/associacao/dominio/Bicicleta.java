@@ -6,14 +6,14 @@ public class Bicicleta {
     private Corrente correnteEquipada;
     private Servico[] historicoServicos;
 
-    public Servico[] getHistoricoServicos() {
-        return historicoServicos;
-    }
-
     public Bicicleta(String marca, String modelo) {
         this.marca = marca;
         this.modelo = modelo;
         this.historicoServicos = new Servico[5];
+    }
+
+    public Servico[] getHistoricoServicos() {
+        return historicoServicos;
     }
 
     public void adicionarServico(Servico servicoRealizado) {
@@ -35,11 +35,10 @@ public class Bicicleta {
         System.out.println("\nHistorico de Servicos: ");
         for (int i = 0; i < historicoServicos.length; i++) {
             if (historicoServicos[i] != null) {
-                System.out.println(historicoServicos[i].getNomeDoServico()+" Valor: R$"+historicoServicos[i].getValor());
+                System.out.println(historicoServicos[i].getNomeDoServico() + " | Valor: R$" + historicoServicos[i].getValor());
             }
-
-
         }
+        System.out.println();
     }
 
     public void pedalar(double distancia) {
