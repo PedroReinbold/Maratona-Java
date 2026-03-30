@@ -14,19 +14,19 @@ public class Funcionario extends Pessoa {
         System.out.println("Dentro do bloco de inicializacao de funcionario 2");
     }
 
-    public Funcionario(String nome){
+    public Funcionario(String nome) {
         super(nome);
         System.out.println("Dentro do construtor de funcionario");
 
     }
 
-    public void imprime(){
+    public void imprime() {
         super.imprime();
         System.out.println(this.salario);
     }
 
-    public void relatorioPagamento(){
-        System.out.println("Eu "+this.nome+"recebi o salario de "+this.salario);
+    public void relatorioPagamento() {
+        System.out.println("Eu " + this.nome + "recebi o salario de " + this.salario);
     }
 
     private double salario;
@@ -38,7 +38,6 @@ public class Funcionario extends Pessoa {
     public void setSalario(double salario) {
         this.salario = salario;
     }
-
 
 
 }

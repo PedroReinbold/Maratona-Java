@@ -4,6 +4,7 @@ public class Pessoa {
     protected String nome;
     protected String cpf;
     protected Endereco endereco;
+
     static {
         System.out.println("Dentro do bloco inicializacao estatico de pessoa");
     }

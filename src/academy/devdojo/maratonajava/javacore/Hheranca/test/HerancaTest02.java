@@ -3,6 +3,7 @@ package academy.devdojo.maratonajava.javacore.Hheranca.test;
 import academy.devdojo.maratonajava.javacore.Hheranca.dominio.Funcionario;
 
 public class HerancaTest02 {
+
     // 0 - Bloco de inicializacao estatico da super classe e executado quando JVM carregar a superclasse
     // 1 - Bloco de inicializacao estatico da sub classe e executado quando JVM carregar a subclasse
     // 2 - Alocado espaco em memoria para o objeto da superclasse
